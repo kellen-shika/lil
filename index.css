@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 185, 129, 0.692);
+}
+img#hero{
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px 0px 10px 0px;
+}
+h1#hero{
+    color: rgb(251, 255, 0);
+    font-size: 50px;
+    font-family: 'Aboreto', cursive;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: rgba(0, 255, 255, 0.836);
+    size: 50px;
+}
+li a{
+    font-family: 'Aboreto', cursive;
+    font-size: 45px;
+    color: black;
+    text-decoration: overline;
+    text-decoration: underline;
+}
+li a:hover{
+    color: rgb(253, 203, 95);
+}
