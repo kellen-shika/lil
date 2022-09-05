@@ -15,24 +15,41 @@ img#hero{
     margin: 20px 0px 10px 0px;
 }
 h1#hero{
-    color: rgb(251, 255, 0);
+    color: rgb(255, 217, 0);
     font-size: 50px;
     font-family: 'Aboreto', cursive;
 }
-ul{
+h4#hero{
+    color: rgba(255, 251, 0, 0.801);
+    font-family: 'Aboreto';
+    font-size: larger;
+}
+nav ul li a{
     display: flex;
+    justify-content: center;
     list-style: none;
-    justify-content: space-evenly;
-    background-color: rgba(0, 255, 255, 0.836);
-    size: 50px;
-}
-li a{
-    font-family: 'Aboreto', cursive;
-    font-size: 45px;
+    text-decoration: none;
+    align-items: center;
     color: black;
-    text-decoration: overline;
-    text-decoration: underline;
+    background-color: rgba(0, 255, 255, 0.836);
+    size: 50px; 
+    font-family: 'Aboreto', cursive;
+    font-size: 45px; 
+    width: 100%;
+    height: 100%;
 }
-li a:hover{
-    color: rgb(253, 203, 95);
+nav li a:hover{
+    color: rgb(248, 191, 69);
+    background-color: rgb(194, 55, 50);
+
+}
+section#hero{
+    text-align:center;
+}
+body{
+    background-color: rgba(139, 250, 194, 0.87);
+}
+footer{
+    position: fixed;
+    width: 100%;
 }
