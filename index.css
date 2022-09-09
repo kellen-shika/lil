@@ -23,8 +23,9 @@ h4#hero{
     color: rgba(255, 251, 0, 0.801);
     font-family: 'Aboreto';
     font-size: larger;
+    align-items: center;
 }
-nav ul li a{
+nav ul li{
     display: flex;
     justify-content: center;
     list-style: none;
@@ -44,12 +45,20 @@ nav li a:hover{
 
 }
 section#hero{
+    display: flex;
     text-align:center;
 }
-body{
-    background-color: rgba(139, 250, 194, 0.87);
+section #cou{
+   margin-top: 10px;
+   display:flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 footer{
     position: fixed;
-    width: 100%;
+    bottom: 0px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+
 }
