@@ -19,16 +19,9 @@ h1#hero{
     font-size: 50px;
     font-family: 'Aboreto', cursive;
 }
-h4#hero{
-    color: rgba(255, 251, 0, 0.801);
-    font-family: 'Aboreto';
-    font-size: larger;
-    align-items: center;
-}
-nav ul li{
+li a{
     display: flex;
-    justify-content: center;
-    list-style: none;
+    justify-content: space-evenly;
     text-decoration: none;
     align-items: center;
     color: black;
@@ -39,26 +32,15 @@ nav ul li{
     width: 100%;
     height: 100%;
 }
-nav li a:hover{
+li a:hover{
+    display: flex;
     color: rgb(248, 191, 69);
     background-color: rgb(194, 55, 50);
 
 }
-section#hero{
-    display: flex;
-    text-align:center;
-}
 section #cou{
-   margin-top: 10px;
-   display:flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-footer{
-    position: fixed;
-    bottom: 0px;
-    height: 70px;
     display: flex;
-    justify-content: center;
-
+   margin-top: 10px;
+   align-items: center;
+   justify-content: space-evenly;
 }
