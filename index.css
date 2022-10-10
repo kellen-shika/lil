@@ -7,7 +7,7 @@
     padding: 0px;
     border: 0px;
     font-family: 'Aboreto', cursive;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 header {
@@ -21,15 +21,20 @@ section#hero {
     flex-direction: column;
 }
 img#hero {
-    max-width: 15%;
+    max-width: 20%;
     border-radius: 50%;
-    margin: 0.3vw 0vw 0.3vw 0vw;
+    margin: 0.5vw 0vw 0.5vw 0vw;
 }
 
 h1#hero {
     color: rgb(115, 75, 226);
-    max-width: 90%;
-    font-size: 2vw;
+    max-width: 100%;
+    font-size: 2.5vw;
+}
+
+h4#hero{
+    display: flex;
+    align-items: center;
 }
 
 nav {
@@ -76,10 +81,11 @@ main {
     background-color: rgb(185, 132, 201);
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 }
 
 main section img{
-    max-width: 25%;
+    max-width: 35%;
 } 
 
 main section{
@@ -92,6 +98,7 @@ main section{
 footer {
     display: flex;
     flex-direction: column;
+    position: relative;
     bottom: 0px;
     width: 100%;
     align-items: center;
@@ -109,32 +116,55 @@ form #env{
     margin: 0.3vw 0vw 0.3vw 0vw;
 }
 
-@media only screen and (max-width: 700px){
-    footer{
-        position: fixed;
+@media only screen and (max-width: 960px){
+    *{
+        font-size: 2.5vw;
     }
+    h1#hero{
+        font-size: 3.5vw;
+    }
+
 }
 
 @media only screen and (max-width: 550px) {
+    *{
+        font-size: 3vw;
+    }
+    h1#hero{
+        font-size: 4.5vw;
+    }
     main{
         display: flex;
         flex-direction: column;
         max-width: 100%;
     }
-    
-    main section{
-        display: flex;
+
+    nav{ 
+        max-height: 75%;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    *{
+        font-size: 4vw;
+    }
+    h1#hero{
+        font-size: 4.5vw;
+    }
+
+    img#hero{
+        display: none;
+    }
+
+
+    main{
+        max-width: 100%;
     }
 
     section #cou{
         display: flex;
         flex-direction: column;
         margin: 1vw 0vw 1vw 0vw;
-    }
-
-    section #ser{
-        display: flex;
-        flex-direction: row-reverse;
     }
 
     section #con{
@@ -146,13 +176,18 @@ form #env{
     nav{ 
         max-height: 75%;
     }
-    
+}
+
+@media only screen and (max-width: 370px){
+    *{
+        font-size: 3.5vw;
+    }
+ 
 }
 
 @media only screen and (max-width: 339px){
     header{
         display: none;
-        esta pagina nao esTA DISPONIVEL
     }
     nav{
         display: none;
