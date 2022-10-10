@@ -86,12 +86,12 @@ main section{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-direction: column;
 }
 
 footer {
     display: flex;
     flex-direction: column;
-    position: fixed;
     bottom: 0px;
     width: 100%;
     align-items: center;
@@ -109,15 +109,26 @@ form #env{
     margin: 0.3vw 0vw 0.3vw 0vw;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px){
+    footer{
+        position: fixed;
+    }
+}
+
+@media only screen and (max-width: 550px) {
     main{
         display: flex;
         flex-direction: column;
         max-width: 100%;
     }
-
-    main section #cou{
+    
+    main section{
         display: flex;
+    }
+
+    section #cou{
+        display: flex;
+        flex-direction: column;
         margin: 1vw 0vw 1vw 0vw;
     }
 
@@ -141,6 +152,7 @@ form #env{
 @media only screen and (max-width: 339px){
     header{
         display: none;
+        esta pagina nao esTA DISPONIVEL
     }
     nav{
         display: none;
