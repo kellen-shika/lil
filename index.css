@@ -11,7 +11,7 @@
     padding: 0px;
     border: 0px;
     font-family: 'Aboreto', cursive;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 
 header {
@@ -91,10 +91,6 @@ main section img{
     max-width: 35%;
 } 
 
-main{
-    display: flex;
-    align-items: center;
-}
 section{
     display: flex;
     flex-direction: column;
@@ -108,7 +104,7 @@ h1{
 }
 
 div img {
-    width: 200vw;
+    width: 220vw;
 }
 
  div{
@@ -120,11 +116,7 @@ div img {
 
 footer {
     display: flex;
-    flex-direction: column;
     position: relative;
-    bottom: 0px;
-    width: 100%;
-    align-items: center;
     justify-content: center;
     background-color: var(--quar);
 }
@@ -134,6 +126,7 @@ form{
     margin: 0.3vw 0vw 0.3vw 0vw;
     font-size: 0.3vw;
 }
+
 form #env{
     color: var(--send);
     background-color: var(--ter);
@@ -175,21 +168,8 @@ form #env{
         display: none;
     }
 
-
     main{
         max-width: 100%;
-    }
-
-    section #cou{
-        display: flex;
-        flex-direction: column;
-        margin: 1vw 0vw 1vw 0vw;
-    }
-
-    section #con{
-        display: flex;
-        flex-direction: row;
-        margin: 1vw 0vw 1vw 0vw;
     }
 
     nav{ 
