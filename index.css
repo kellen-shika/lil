@@ -1,5 +1,9 @@
 :root {
-    --prin: rgb(162, 104, 184)
+    --prin: rgb(162, 104, 184);
+    --send: #F2D004;
+    --ter: #197251;
+    --op: #C1441E;
+    --quar:#A0AF58; 
 }
 
 * {
@@ -14,20 +18,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(213, 195, 236);
+    background-color: var(--quar);
 }
 section#hero {
     display: flex;
     flex-direction: column;
 }
 img#hero {
-    max-width: 20%;
+    max-width: 15%;
     border-radius: 50%;
     margin: 0.5vw 0vw 0.5vw 0vw;
 }
 
 h1#hero {
-    color: rgb(115, 75, 226);
+    color: rgb(190, 54, 0);
     max-width: 100%;
     font-size: 2.5vw;
 }
@@ -38,9 +42,8 @@ h4#hero{
 }
 
 nav {
-
     color: black;
-    background-color: rgb(255, 154, 233);
+    background-color: var(--prin);
 }
 
 nav ul {
@@ -67,8 +70,8 @@ nav li a {
 
 li a:hover {
     display: flex;
-    color: rgb(248, 191, 69);
-    background-color: var(--prin);
+    color: var(--send);
+    background-color: var(--op);
     justify-content: space-around;
     width: 100%;
     height: 100%;
@@ -78,7 +81,7 @@ li a:hover {
 main {
     display: flex;
     width: 100%;
-    background-color: rgb(185, 132, 201);
+    background-color: var(--op);
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
@@ -88,12 +91,32 @@ main section img{
     max-width: 35%;
 } 
 
-main section{
+main{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
 }
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 4vw;
+    color: var(--send);
+}
+
+div img {
+    width: 200vw;
+}
+
+ div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--ter);
+ }
 
 footer {
     display: flex;
@@ -103,7 +126,7 @@ footer {
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-color: rgb(146, 76, 211);
+    background-color: var(--quar);
 }
 form{
     display:flex;
@@ -112,7 +135,8 @@ form{
     font-size: 0.3vw;
 }
 form #env{
-    color: var(--prin);
+    color: var(--send);
+    background-color: var(--ter);
     margin: 0.3vw 0vw 0.3vw 0vw;
 }
 
@@ -132,11 +156,6 @@ form #env{
     }
     h1#hero{
         font-size: 4.5vw;
-    }
-    main{
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
     }
 
     nav{ 
